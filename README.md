@@ -57,4 +57,8 @@ The analysis of the election show that:
 * The winner of the election was:
   *  Diana DeGette, who recieved 73.8% of the vote and 272,892 number of votes.
 
-## Challenge Summary
+### Election-Audit Summary:
+
+This script can be used with certain modifications for any election going forward. These modifications include...
+  1. Before defining the variable "file_to_load", at the beginning of the script, have the code ask the user to input the folder name that contains the CSV file, and, also, the CSV file its-self that has the data. This way, no matter what election data, as long as it is in the same format as the "election_results.csv, it will run successfully.
+  2. Promptly after, have the computer ask the user for a foler name they would like to save their text file to, as well as the text file that will have the election information on it.
